@@ -8,36 +8,52 @@
     <title>TO-DO LIST</title>
 
     <link rel="stylesheet" href="./css/stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400;1,900&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
+    <!-- Container for html -->
 
+    <div id="container">
 
-    <header>
+        <!-- Main heading -->
 
         <div id="mainHeading">
             <h1>My To-do list</h1>
         </div>
 
+        <!-- Sub heading and input field -->
+
         <div id="subHeading">
-            <h2>What's on the agenda?</h2>
+            
             <form id="createTask">
 
-                <input type="text" id="taskInput">
+                <input type="text" id="taskInput" value="What do I need to do?">
                 <input type="submit" id="submitTask" value="Add">
 
             </form>
         </div>
 
-    </header>
+        <!-- Task list -->
 
+        <section class="todo">
+            <h2>What's on the agenda?</h2>
+            <div class="tasks">
+                <div id="task">
+                    <div class="whatToDo">
+                        <input type="text" class="text" value="task" readonly>
+                    </div>
+                </div>
+            </div>
 
+        </section>
 
-    <main>
-        
-    </main>
+    </div>
 
+    <!-- JavaScript link -->
 
     <script src="./javascript/script.js"></script>
 </body>

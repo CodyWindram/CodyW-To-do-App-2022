@@ -1,0 +1,26 @@
+/* main styling */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: rgb(160, 160, 160);
+    min-height: 100vh;
+}
+
+/* heading styling */
+
+#mainHeading{
+    padding: 2% 2% 2% 2%;
+    margin: 10px;
+    background-color: azure;
+    border-radius: 10px;
+}
+
+h1{
+    text-align: center;
+}
+

@@ -9,8 +9,9 @@
 
     <link rel="stylesheet" href="./css/stylesheet.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,400;1,900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -19,37 +20,30 @@
 
     <div id="container">
 
-        <!-- Main heading -->
+        <!-- Main heading and input fields -->
 
         <div id="mainHeading">
             <h1>My To-do list</h1>
-        </div>
 
-        <!-- Sub heading and input field -->
+            <div id="inputContainer">
 
-        <div id="subHeading">
-            
-            <form id="createTask">
+                <form id="createTask">
 
-                <input type="text" id="taskInput" value="What do I need to do?">
-                <input type="submit" id="submitTask" value="Add">
+                    <input type="text" id="taskInput" placeholder="What do you need to do?">
+                    <input type="text" id="dueInput" placeholder="When is it due?">
+                    <input type="image" id="submitTask" src="./images/add.png" alt="Submit">
 
-            </form>
+                </form>
+
+            </div>
+
         </div>
 
         <!-- Task list -->
 
-        <section class="todo">
-            <h2>What's on the agenda?</h2>
-            <div class="tasks">
-                <div id="task">
-                    <div class="whatToDo">
-                        <input type="text" class="text" value="task" readonly>
-                    </div>
-                </div>
-            </div>
+        <div id="tasks">
 
-        </section>
+        </div>
 
     </div>
 

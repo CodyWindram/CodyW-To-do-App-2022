@@ -16,7 +16,7 @@ body {
 
 /* heading styling */
 
-#mainHeading {
+#mainHeadingContainer {
     padding: 2rem 1rem;
     margin: 0 auto;
     background-color: rgb(230, 230, 230);

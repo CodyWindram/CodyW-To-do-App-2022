@@ -15,32 +15,62 @@
 </head>
 
 <body>
+    <header>
+
+        <!-- Main heading and input fields -->
 
 
-    <!-- Main heading and input fields -->
+        <div id="mainHeadingContainer">
+            <h1>My To-do list</h1>
 
-    <div id="mainHeadingContainer">
-        <h1>My To-do list</h1>
+            <div id="inputContainer">
 
-        <div id="inputContainer">
+                <form id="createTask">
 
-            <form id="createTask">
+                    <input type="text" id="taskInput" placeholder="What do you need to do?">
+                    <input type="date" id="dueInput">
+                    <input type="submit" id="submitTask" value="Add" alt="Submit">
 
-                <input type="text" id="taskInput" placeholder="What do you need to do?">
-                <input type="text" id="dueInput" placeholder="When is it due?">
-                <input type="image" id="submitTask" src="./images/add.png" alt="Submit">
+                </form>
 
-            </form>
+            </div>
 
         </div>
+    </header>
 
-    </div>
 
-    <!-- Task list -->
+    <main>
 
-    <div id="tasks">
+        <!-- Task list -->
 
-    </div>
+        <section class="taskList">
+
+            <h2>Things to do:</h2>
+
+            <div id="tasks">
+
+                <!-- <div class="task">
+                    <div class="content1">
+                        <input type="text" class="text" value="Teaushdj" readonly>
+                    </div>
+                    <div class="content2">
+                        <input type="text" class="dueDate" value="2022/01/01" readonly>
+                    </div>
+                    <div class="actions">
+                        <button class="edit">Edit</button>
+                        <button class="delete">Delete</button>
+                    </div>
+                </div> -->
+
+            </div>
+        </section>
+
+
+
+    </main>
+
+
+
 
 
 
